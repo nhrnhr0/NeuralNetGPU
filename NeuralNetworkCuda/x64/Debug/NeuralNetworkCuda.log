@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file NeuralNet.cu...
+  
+  C:\Users\ronio\source\repos\NeuralNetworkCuda\NeuralNetworkCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\NeuralNet.cu.obj "C:\Users\ronio\source\repos\NeuralNetworkCuda\NeuralNetworkCuda\NeuralNet.cu" 
+  NeuralNet.cu
+C:\Users\ronio\source\repos\NeuralNetworkCuda\NeuralNetworkCuda\Optimizer.cuh(18): warning C4305: 'argument': truncation from 'double' to 'val_t'
+C:/Users/ronio/source/repos/NeuralNetworkCuda/NeuralNetworkCuda/NeuralNet.cu(71): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/ronio/source/repos/NeuralNetworkCuda/NeuralNetworkCuda/NeuralNet.cu(104): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:/Users/ronio/source/repos/NeuralNetworkCuda/NeuralNetworkCuda/NeuralNet.cu(115): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  NeuralNetworkCuda.vcxproj -> C:\Users\ronio\source\repos\NeuralNetworkCuda\x64\Debug\NeuralNetworkCuda.exe
